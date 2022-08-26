@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "jsdom": "^20.0.0"
+  },
+  "scripts": {
+    "build:jquery": "cp node_modules/jquery/dist/jquery.slim.min.js static/jquery/"
   }
 }
