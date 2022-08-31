@@ -87,3 +87,8 @@ button[0].onclick = () => {
 
     }
 };
+
+//removing content
+//empty... the inner HTML of element selected
+
+//remove ... the element selected completely
