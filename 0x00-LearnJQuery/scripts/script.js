@@ -90,5 +90,10 @@ button[0].onclick = () => {
 
 //removing content
 //empty... the inner HTML of element selected
-
+$('.button').empty();
+$('#points-of-sale').empty();
 //remove ... the element selected completely
+$('.buttton').remove();
+$('#contact img').remove();
+
+//
