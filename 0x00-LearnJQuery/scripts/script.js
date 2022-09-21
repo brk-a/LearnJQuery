@@ -96,4 +96,9 @@ $('#points-of-sale').empty();
 $('.buttton').remove();
 $('#contact img').remove();
 
-//
+//changing attributes
+//removeAttr ... remove the attribute completely
+$('#contact img').removeAttr('alt');
+//attr... either read or set an attr
+$('#contact img').attr('alt', 'location');
+console.log($('#contact img').attr('alt')); //read attr
