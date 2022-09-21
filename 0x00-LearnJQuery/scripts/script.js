@@ -102,3 +102,13 @@ $('#contact img').removeAttr('alt');
 //attr... either read or set an attr
 $('#contact img').attr('alt', 'location');
 console.log($('#contact img').attr('alt')); //read attr
+
+//control CSS
+console.log($('#social-nav').css('position'));
+$('#social-nav').css('top', '-200px').css('left', '100px'); //chain as many as you want
+$('#social-nav').css({
+    'left': '150px',
+    'top': '-410px',
+    'opacity': '0.5px',
+    'border-top': '4px solid red'
+});
